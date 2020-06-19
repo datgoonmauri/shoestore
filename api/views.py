@@ -1,7 +1,7 @@
 from api.models import Manufacturer, Shoe, ShoeColor, ShoeType
 from rest_framework import viewsets
-from api.serializers import (
-    ManufacturerSerializer, ShoeSerializer, ShoeColorSerializer, ShoeTypeSerializer)
+from api.serializers import ManufacturerSerializer, ShoeSerializer, ShoeColorSerializer, ShoeTypeSerializer
+
 
 
 class ManufacturerViewSet(viewsets.ModelViewSet):
